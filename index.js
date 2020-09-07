@@ -45,14 +45,14 @@ client.on('message', (message) => {
   }
 
   if(message.content == 'k!겐지') {
-    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
       .setAuthor('겐지 우', img, )
       .addField('```Name Genji```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752547646501158993/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -66,7 +66,7 @@ client.on('message', (message) => {
       .setAuthor('겐지 유도', img, )
       .addField('```Name Genji```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/750911290133708991/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
