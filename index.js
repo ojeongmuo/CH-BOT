@@ -217,7 +217,7 @@ if(message.content == 'o!한국어') {
 
       .addField('```Name Widow```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202639376646355/1a3bb2f54b11d621.PNG')
 
     message.channel.send(embed)
   }
@@ -231,7 +231,7 @@ if(message.content == 'o!한국어') {
  
       .addField('```Name Widow```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202997545042062/f8651bb8d3161100.PNG')
 
     message.channel.send(embed)
   }
@@ -245,7 +245,7 @@ if(message.content == 'o!한국어') {
 
       .addField('```Name Widow```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202639376646355/1a3bb2f54b11d621.PNG')
   
     message.channel.send(embed)
   }
@@ -258,7 +258,7 @@ if(message.content == 'o!한국어') {
    
       .addField('```Name Widow```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202997545042062/f8651bb8d3161100.PNG')
  
     message.channel.send(embed)
   }
@@ -329,7 +329,7 @@ if(message.content == 'o!한조') {
 
       .addField('```Name Ash```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623529022292099/2.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756201110053584966/8a49ef0f1992e74e.PNG')
 
     message.channel.send(embed)
   }
@@ -343,7 +343,7 @@ if(message.content == 'o!한조') {
 
       .addField('```Name Ash```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623517291085864/bfaeeed5a155f8fc.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756201546030645289/e8d8a38b712967aa.PNG')
 
     message.channel.send(embed)
   }
@@ -715,7 +715,7 @@ if(message.content == 'o!한조') {
       .setColor('#ffff00')
       .addField('```Name Tracer```', '```fix\nTracking```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750923242835017788/18d63aca66148a0a.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756203563474092093/1.PNG')
     message.channel.send(embed)
   }
 
@@ -730,7 +730,7 @@ if(message.content == 'o!한조') {
       .setColor('#ffff00')
       .addField('```Name Tracer```', '```fix\nTracking```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750923242835017788/18d63aca66148a0a.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756203563474092093/1.PNG')
     message.channel.send(embed)
   }
 
