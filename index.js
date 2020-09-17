@@ -5,7 +5,7 @@ const token = process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
-client.user.setPresence({ game: { name: 'k!help' }, status: 'online' })
+client.user.setPresence({ game: { name: 'ch!help ' }, status: 'online' })
 });
 
 client.on('message', (message) => {
@@ -28,35 +28,49 @@ client.on('message', (message) => {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
-
-
-
-  if(message.content == 'k!겐지') {
+if(message.content == 'o!모이라') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
-      .setAuthor('겐지 좌', img, )
-      .addField('```Name Genji```', '```Flick```', true)
+      .setAuthor('모이라 트레킹', img, )
+      .addField('```Name Moira```', '```Tracking```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752547595678646316/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751115745462714438/0de8f0d1ca764052.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
-  if(message.content == 'k!겐지') {
-    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+
+
+
+if(message.content == 'o!겐지') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
-      .setAuthor('겐지 우', img, )
+      .setAuthor('겐지 플릭', img, )
       .addField('```Name Genji```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754982926650966036/6076175114a9e28b.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
+
+
+if(message.content == 'o!한국어') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('UI 한국어', img, )
+      .addField('```Name Korea```', '```UI Korea```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/751096436258504774/751271332959879250/7031ab3335468bcd.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
   if(message.content == 'o!겐지') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
@@ -66,12 +80,12 @@ client.on('message', (message) => {
       .setAuthor('겐지 유도', img, )
       .addField('```Name Genji```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983363978199061/5b809761145bb018.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
-  if(message.content == 'o!대기중1') {
+  if(message.content == 'o!토르비온') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -88,7 +102,7 @@ client.on('message', (message) => {
 
 
 
-  if(message.content == 'o!대기중1') {
+  if(message.content == 'o!토르') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -101,10 +115,32 @@ client.on('message', (message) => {
     message.channel.send(embed)
   }
 
-  
+  if(message.content == 'o!디바') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('디바 트래킹', img, )
+      .addField('```Name Dva```', '```Tracking```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751029974462627912/Orion_.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
   
 
- 
+  if(message.content == 'o!바티') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('바티 트래킹', img, )
+      .addField('```Name Batist```', '```Tracking```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751113664806912125/1.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
   
 
 
@@ -127,6 +163,18 @@ client.on('message', (message) => {
 
 
 
+  if(message.content == 'o!리퍼') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('리퍼 유도', img, )
+      .addField('```Name Reaper```', '```Silent shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750916382455234640/2.PNG')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
 
@@ -152,6 +200,18 @@ client.on('message', (message) => {
 
 
 
+  if(message.content == 'o!둠피') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('둠피 유도', img, )
+      .addField('```Name Doom```', '```Silent Shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750915433141501983/2.PNG')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
 
@@ -163,13 +223,24 @@ client.on('message', (message) => {
       .setAuthor('위도우 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750929031582580746/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
   
-  
+  if(message.content == 'o!위도우') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('위도우 유도', img, )
+      .addField('```Name Widow```', '```Silent Shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
   if(message.content == 'o!위도') {
@@ -180,13 +251,23 @@ client.on('message', (message) => {
       .setAuthor('위도 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750929031582580746/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
-
-  
+  if(message.content == 'o!위도') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('위도 유도', img, )
+      .addField('```Name Widow```', '```Silent Shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
   if(message.content == 'o!한조') {
@@ -197,13 +278,25 @@ client.on('message', (message) => {
       .setAuthor('한조 플릭', img, )
       .addField('```Name Hanzo```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750924534567403560/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983520908345414/bae9099e3ffd40a0.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
 
-
+if(message.content == 'o!한조') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('한조 유도', img, )
+      .addField('```Name Hanzo```', '```Silent Shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624471021158450/847acba6ac488b1b.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+  
   if(message.content == 'o!정크') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
@@ -233,6 +326,7 @@ client.on('message', (message) => {
   }
 
 
+
   if(message.content == 'o!애쉬') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
@@ -241,7 +335,7 @@ client.on('message', (message) => {
       .setAuthor('애쉬 플릭', img, )
       .addField('```Name Ash```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750921714296160256/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623529022292099/2.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -255,7 +349,7 @@ client.on('message', (message) => {
       .setAuthor('애쉬 유도', img, )
       .addField('```Name Ash```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184339424477214/a3b08ae8dceea80a.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623517291085864/bfaeeed5a155f8fc.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -460,7 +554,7 @@ client.on('message', (message) => {
       .setURL('http://www.naver.com')
       .addField('```Name Zarya```', '```Tracking```', true)
       .setColor('#ffff00')
-      .setAuthor('로드호그 트레킹', img, )
+      .setAuthor('자리야 트레킹', img, )
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751031682265514024/1.png')
       .setFooter('ORION BOT❤️', img)
@@ -619,7 +713,7 @@ client.on('message', (message) => {
       .setAuthor('맥 플릭', img, )
       .addField('```Name Mac```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753512186995015781/117c05786350e28a.png')
       .setFooter('ORION BOT❤️', img)
       message.channel.send(embed)
     }
@@ -647,7 +741,7 @@ client.on('message', (message) => {
       .setAuthor('맥크리 플릭', img, )
       .addField('```Name MacCree```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753512186995015781/117c05786350e28a.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -714,15 +808,26 @@ client.on('message', (message) => {
   }
 
 
-
-
-
-  if(message.content == 'o!솔저') {
+if(message.content == 'o!솔저') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
-      .setAuthor('솔저 트레킹', img, )
+      .setAuthor('솔 트레킹', img, )
+      .addField('```Name Soldier```', '```Tracking```', true)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750918569646096394/1.PNG')
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
+  if(message.content == 'o!솔져') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('솔져 트레킹', img, )
       .addField('```Name Soldier```', '```Tracking```', true)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750918569646096394/1.PNG')
       .setThumbnail(img)
@@ -796,8 +901,10 @@ client.on('message', (message) => {
       .setThumbnail(img)
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
+
   }
-  
+ 
+
 
   if(message.content == 'o!바스') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
@@ -824,6 +931,17 @@ client.on('message', (message) => {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
+if(message.content == 'o!이스터에그') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('개발자가 숨겨놓은 이스터에그를 찾아보시오', img, )
+      .addField('```이스터에그```', '```찾아보세요```', true)
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
   
   if(message.content == 'o!esp') {
@@ -841,13 +959,19 @@ client.on('message', (message) => {
 
 
 
+ 
+
+
+
         else if(message.content == 'o!help') 
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
         let commandList = [
-          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
-          {name: '대기중', desc: '대기중 입니다.'},
+          {name: 'o!한국어', desc: 'UI 번역을 합니다'},
+          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
+          {name: 'o!이스터에그', desc: '개발자에 이스터에그'},
+          {name: 'o!ESP', desc: '예쁜 ESP를 '}, 
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
@@ -865,7 +989,7 @@ client.on('message', (message) => {
     message.channel.send(embed)
   }
 
-  if(message.content.startsWith('!전체공지')) {
+  if(message.content.startsWith('!전체공지오리온')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지'.length);
@@ -903,3 +1027,4 @@ function changeCommandStringLength(str, limitLen = 8) {
 
 
 client.login(token);
+ 
