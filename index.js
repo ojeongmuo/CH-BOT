@@ -712,7 +712,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#000000')
+      .setColor('#383B3E')
       .addField('```Name Tracer```', '```fix\nTracking```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756203563474092093/1.PNG')
@@ -727,7 +727,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#000000')
+      .setColor('#383B3E')
       .addField('```Name Tracer```', '```fix\nTracking```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756203563474092093/1.PNG')
