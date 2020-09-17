@@ -873,8 +873,8 @@ if(message.content == 'o!솔저') {
     let embed = new Discord.RichEmbed()
       .setAuthor('ORION BOT HELP USER', helpImg)
       .setColor('#fff000')
-      .addField('https://cdn.discordapp.com/attachments/748535337244033095/748955743461441640/UndetectedSawN.png', ',', true)
 
+.setAuthor('https://cdn.discordapp.com/attachments/748535337244033095/748955743461441640/UndetectedSawN.png' )
 
       .setTimestamp()
     
