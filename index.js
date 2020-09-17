@@ -874,10 +874,10 @@ if(message.content == 'o!솔저') {
       .setAuthor('ORION BOT HELP USER', helpImg)
       .setColor('#fff000')
 
-.setAuthor('https://cdn.discordapp.com/attachments/748535337244033095/748955743461441640/UndetectedSawN.png' )
 
       .setTimestamp()
-    
+    .setImage('https://cdn.discordapp.com/attachments/748535337244033095/748955743461441640/UndetectedSawN.png')
+
     commandList.forEach(x => {
       commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
     });
