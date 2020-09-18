@@ -855,7 +855,17 @@ if(message.content == 'o!솔저') {
   }
 
 
-  
+  if(message.content == 'o!한국어') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#FFFF00')
+      .addField('```Korean```', '```fix\nMouse translation```', true)
+      .setImage('https://cdn.discordapp.com/attachments/756303199824248962/756407053060145153/2fbc732fa2c809ed.jpg')
+      .setThumbnail(img)
+
+    message.channel.send(embed)
+  }
   
 
 
@@ -868,7 +878,8 @@ if(message.content == 'o!솔저') {
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
         let commandList = [
-          {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
+          {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다.'},
+{name: 'o!마우스', desc: '마우스 설정키를 번역 해줍니다.'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
