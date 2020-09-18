@@ -865,10 +865,6 @@ if(message.content == 'o!play') {
       .setColor('#FFFF00')
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756428964729323550/r3gZGHB.gif')
       .setImage('- A B O U T O R I O N ')
-.setImage('Orion is Overwatch memory aimbot ')
-.setImage('Orion is one of the most advanced and customizable ')
-      .setThumbnail(img)
-
     message.channel.send(embed)
   }
 
