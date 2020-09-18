@@ -846,7 +846,7 @@ if(message.content == 'o!솔저') {
   }
 
 
-  if(message.content == 'o!마우스 ') {
+  if(message.content == 'o!마우스') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
