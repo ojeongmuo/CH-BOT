@@ -862,7 +862,7 @@ if(message.content == 'o!play') {
     let embed = new Discord.RichEmbed()
       .setColor('#FFFF00')
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756428964729323550/r3gZGHB.gif')
-      .setTitle('Orion Function')
+      .setTitle('```Orion Function```')
       .addField('Orion is Overwatch memory aimbot.', 'Orion is one of the most advanced and customizable.')
 .addField('cheat with the highest level of security.', 'You will get a powerful performace and easy to use') 
 .addField('interface with 0% of FPS Drops or any type', 'of our customers we make sure') 
