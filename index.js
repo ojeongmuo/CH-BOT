@@ -869,7 +869,7 @@ if(message.content == 'o!play') {
 .addField('interface with 0% of FPS Drops or any type')
 .addField('of our customers we make sure')
 .addField('you get what you paid for')
-.addField('You still don't want to buy it?')
+
 
     message.channel.send(embed)
   }
