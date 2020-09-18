@@ -315,7 +315,7 @@ if(message.content == 'o!한조') {
  
       .addField('```Name Junkrat```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750922388169818142/91e4e2234fb986d6.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756402818549809173/e1ad6cbcd9495f7a.PNG')
    
     message.channel.send(embed)
   }
@@ -363,7 +363,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Para```', '```fix\nFlick```', true)
 
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750923912828682362/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401748058439710/ee7c7ecc7b4f85e3.PNG')
 
     message.channel.send(embed)
   }
@@ -379,7 +379,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Para```', '```fix\nSilent Shot```', true)
  
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750923912828682362/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401750432546916/2c58d6f092569b82.PNG')
 
     message.channel.send(embed)
   }
@@ -789,7 +789,7 @@ if(message.content == 'o!솔저') {
       .setURL('http://www.naver.com')
       .setColor('#000000')
       .addField('```Name Symmetra```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750920787451445419/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401926375079958/b2453cf4a8db284d.PNG')
       .setThumbnail(img)
     message.channel.send(embed)
   }
@@ -799,8 +799,8 @@ if(message.content == 'o!솔저') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#000000')
-      .addField('```Name Symmetra```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750921031908196502/3.PNG')
+      .addField('```Name Symmetra```', '```fix\nSilent Shot```', true)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401919072665620/1.PNG')
       .setThumbnail(img)
     message.channel.send(embed)
   }
@@ -812,7 +812,7 @@ if(message.content == 'o!솔저') {
       .setURL('http://www.naver.com')
       .setColor('#000000')
       .addField('```Name Symmetra```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750920787451445419/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401926375079958/b2453cf4a8db284d.PNG')
       .setThumbnail(img)
     message.channel.send(embed)
   }
@@ -822,8 +822,8 @@ if(message.content == 'o!솔저') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#000000')
-      .addField('```Name Symmetra```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750921031908196502/3.PNG')
+      .addField('```Name Symmetra```', '```fix\nSilent Shot```', true)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756401919072665620/1.PNG')
       .setThumbnail(img)
     message.channel.send(embed)
 
