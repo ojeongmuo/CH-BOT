@@ -88,7 +88,7 @@ if(message.content == 'o!겐지') {
       .setColor('#000000')
       .addField('```Name Torbjorn```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750922731369005083/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756307222031630466/f8a6e0a2266eeeff.PNG')
 
     message.channel.send(embed)
   }
@@ -105,7 +105,7 @@ if(message.content == 'o!겐지') {
 
       .addField('```Name Torbjorn```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750922731369005083/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756307222031630466/f8a6e0a2266eeeff.PNG')
 
     message.channel.send(embed)
   }
@@ -188,7 +188,7 @@ if(message.content == 'o!겐지') {
 
       .addField('```Name Doom```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750915436043960330/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756307318051962971/9431fd1a8b973ac6.PNG')
  
     message.channel.send(embed)
   }
@@ -203,7 +203,7 @@ if(message.content == 'o!겐지') {
 
       .addField('```Name Doom```', '```fix\nSilent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750915433141501983/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756307376554115090/b2b275953186ee6f.PNG')
 
     message.channel.send(embed)
   }
