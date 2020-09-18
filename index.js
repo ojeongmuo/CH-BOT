@@ -863,7 +863,6 @@ if(message.content == 'o!play') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#FFFF00')
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756428964729323550/r3gZGHB.gif')
       .setImage('- A B O U T O R I O N ')
     message.channel.send(embed)
   }
