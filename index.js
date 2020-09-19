@@ -42,6 +42,8 @@ if(message.content == 'o!겐지') {
       .addField('```Name Genji```', '```fix\nFlick```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756212406740451418/997b60a86b5f1c96.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756212812216533022/e5c8a73472ed7289.PNG')
+
     message.channel.send(embed)
   }
 
