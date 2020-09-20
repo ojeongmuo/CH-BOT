@@ -563,7 +563,7 @@ if(message.content == 'o!디바') {
 
 
 
-  if(message.content == 'o!자리야') {
+  if(message.content == 'o!라인') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -581,7 +581,7 @@ if(message.content == 'o!디바') {
       .addField('```Name Reinhardt```', '```fix\nAbilities```', true)
       .setColor('#000000')
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/756303199824248962/757079399047757985/53b61f75af8eed6f.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757081885703929967/757082224381395064/47ce0ed1409246c5.PNG')
     message.channel.send(embed)
   }
 
