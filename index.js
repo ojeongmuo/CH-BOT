@@ -244,6 +244,7 @@ if(message.content == 'o!겐지') {
     message.channel.send(embed)
   }
 
+
   if(message.content == 'o!위도') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
@@ -543,16 +544,7 @@ if(message.content == 'o!디바') {
   }
 
 
-  if(message.content == 'o!자리야') {
-    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .addField('```Name Zarya```', '```fix\nTracking```', true)
-      .setColor('#000000')
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751031682265514024/1.png')
-    message.channel.send(embed)
-  }
+  
 
 
 
@@ -571,7 +563,18 @@ if(message.content == 'o!디바') {
 
 
 
-  if(message.content == 'o!라인') {
+  if(message.content == 'o!자리야') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .addField('```Name Zarya```', '```fix\nTracking```', true)
+      .setColor('#000000')
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751031682265514024/1.png')
+    message.channel.send(embed)
+  }
+
+  if(message.content == 'o!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -581,6 +584,7 @@ if(message.content == 'o!디바') {
       .setImage('https://cdn.discordapp.com/attachments/756303199824248962/757079399047757985/53b61f75af8eed6f.PNG')
     message.channel.send(embed)
   }
+
 
 
 
@@ -791,6 +795,8 @@ if(message.content == 'o!솔저') {
     message.channel.send(embed)
   }
 
+  
+
 
   
   if(message.content == 'o!솜브라') {
@@ -803,6 +809,8 @@ if(message.content == 'o!솔저') {
       .setThumbnail(img)
     message.channel.send(embed)
   }
+
+
   
   if(message.content == 'o!시메') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
