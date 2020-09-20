@@ -567,10 +567,10 @@ if(message.content == 'o!디바') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .addField('```Name Zarya```', '```fix\nTracking```', true)
+      .addField('```Name Reinhardt```', '```fix\nAbilities```', true)
       .setColor('#000000')
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751031682265514024/1.png')
+      .setImage('https://cdn.discordapp.com/attachments/756303199824248962/757079399047757985/53b61f75af8eed6f.PNG')
     message.channel.send(embed)
   }
 
@@ -578,7 +578,7 @@ if(message.content == 'o!디바') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .addField('```Name Reinhardt```', '```fix\nAbilities```', true)
+      .addField('```Name Zarya```', '```fix\nTracking```', true)
       .setColor('#000000')
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/757081885703929967/757082224381395064/47ce0ed1409246c5.PNG')
