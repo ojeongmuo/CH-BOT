@@ -68,7 +68,7 @@ if(message.content == 'ch!원격') {
       .setColor('#ff0000')
       .addField('```원격 문의```', '**```fix\n크힛만 원격 문의 부탁해용```**', true)
   .setThumbnail(img)
-.addField('크힛 제품 원격 입니다.', '원격 문의는 Tㅇm#6666 또는 Prometheus#6962에게 부탁 드립니다.') 
+.addField('크힛 제품 원격 입니다.', '원격 문의는 Critical PR#7777 또는 Prometheus#6962에게 부탁 드립니다.') 
 .addField('원격 하시는 분이 없으면 ', '관리자 또는 부관리자 한테 문의 부탁드립니다.') 
 
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756466685657219132/3.png')
@@ -123,6 +123,42 @@ if(message.content == 'ch!호그') {
       
     message.channel.send(embed)
   }
+if(message.content == 'ch!맥1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nMac```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532844531154974/1.PNG')
+      
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!맥1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nMac```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532919974101002/2.PNG')
+      
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!맥크리1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nMac```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532844531154974/1.PNG')
+      
+    message.channel.send(embed)
+  }
+
 
 if(message.content == 'ch!맥') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
@@ -147,7 +183,74 @@ if(message.content == 'ch!위도우') {
       
     message.channel.send(embed)
   }
+if(message.content == 'ch!위도1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nWidow```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533174420897802/1.PNG')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!위도1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nWidow```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533233892589659/e792ea1678c97e87.PNG')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!위도우1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nWidow```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533174420897802/1.PNG')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!위도우1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nWidow```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533233892589659/e792ea1678c97e87.PNG')
+      
+    message.channel.send(embed)
+  }
   
+if(message.content == 'ch!애쉬1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nAsh```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533444311646230/1.PNG')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!애쉬1') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nAsh```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533440927367238/d37865edea2280a2.PNG')
+      
+    message.channel.send(embed)
+  }
+
   if(message.content == 'ch!정크') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
