@@ -264,18 +264,6 @@ if(message.content == 'ch!애쉬1') {
     message.channel.send(embed)
   }
 
- if(message.content == 'ch!바스') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\nBas```**', true)
-      .setThumbnail(img).
-    
-      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
-     
-    message.channel.send(embed)
-  }
 
 if(message.content == 'ch!바스티온') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
