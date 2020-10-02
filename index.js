@@ -190,21 +190,11 @@ if(message.content == 'ch!위도1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533174420897802/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761552452671504404/1.png')
       
     message.channel.send(embed)
   }
-if(message.content == 'ch!위도1') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '```fix\nWidow```', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533233892589659/e792ea1678c97e87.PNG')
-      
-    message.channel.send(embed)
-  }
+
 if(message.content == 'ch!위도우1') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
@@ -212,21 +202,11 @@ if(message.content == 'ch!위도우1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533174420897802/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761552452671504404/1.png')
       
     message.channel.send(embed)
   }
-if(message.content == 'ch!위도우1') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '```fix\nWidow```', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533233892589659/e792ea1678c97e87.PNG')
-      
-    message.channel.send(embed)
-  }
+
   
 if(message.content == 'ch!애쉬1') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
