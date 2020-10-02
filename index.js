@@ -235,18 +235,7 @@ if(message.content == 'ch!애쉬1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nAsh```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761432783909683240/761528373830483968/22.png')
-      
-    message.channel.send(embed)
-  }
-if(message.content == 'ch!애쉬1') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '```fix\nAsh```', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533440927367238/d37865edea2280a2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761529944693800990/22.png')
       
     message.channel.send(embed)
   }
@@ -281,7 +270,8 @@ if(message.content == 'ch!애쉬1') {
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .addField('```Hero Name```', '**```fix\nBas```**', true)
-      .setThumbnail(img)
+      .setThumbnail(img).
+    
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
      
     message.channel.send(embed)
@@ -527,15 +517,13 @@ if(message.content == 'ch!아나') {
 
 else if(message.content == 'ar!help') 
        {
-        let helpImg = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+        let helpImg = 'https://cdn.discordapp.com/attachments/758295936849018912/758338531608363048/ares.gif';
         let commandList = [
        {name: '!ar(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
-
-
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('CH BOT HELP USER', helpImg)
+      .setAuthor('Ares BOT HELP USER', helpImg)
 .setImage('https://cdn.discordapp.com/attachments/758295936849018912/758338531608363048/ares.gif')
   
       .setColor('#ff0000')
