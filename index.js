@@ -235,7 +235,7 @@ if(message.content == 'ch!애쉬1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nAsh```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760533444311646230/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/761432783909683240/761528373830483968/22.png')
       
     message.channel.send(embed)
   }
@@ -525,7 +525,31 @@ if(message.content == 'ch!아나') {
     message.channel.send(embed)
   }
 
+else if(message.content == 'ar!help') 
+       {
+        let helpImg = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+        let commandList = [
+       {name: '!ar(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
 
+
+        ];
+    let commandStr = '';
+    let embed = new Discord.RichEmbed()
+      .setAuthor('CH BOT HELP USER', helpImg)
+.setImage('https://cdn.discordapp.com/attachments/758295936849018912/758338531608363048/ares.gif')
+  
+      .setColor('#ff0000')
+      .setTimestamp()
+
+  commandList.forEach(x => {
+      
+   commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+    });
+
+    embed.addField('Commands: ', commandStr);
+
+    message.channel.send(embed)
+  }
 
 
 
