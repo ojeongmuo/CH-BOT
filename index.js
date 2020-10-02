@@ -190,7 +190,7 @@ if(message.content == 'ch!위도1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761552452671504404/1.png')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761561217118502933/1.png')
       
     message.channel.send(embed)
   }
@@ -202,7 +202,7 @@ if(message.content == 'ch!위도우1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761552452671504404/1.png')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761561217118502933/1.png')
       
     message.channel.send(embed)
   }
@@ -215,7 +215,7 @@ if(message.content == 'ch!애쉬1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nAsh```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761529944693800990/22.png')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761560778532061194/f34ee3ed1ac0da02.png')
       
     message.channel.send(embed)
   }
