@@ -325,11 +325,11 @@ if(message.content == 'ch!둠피1') {
    
       .addField('```Hero Name```', '```fix\n흑대장```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761936671448891402/6c7739bb34a46b4b.png')
+      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/761938438580076554/13b8407c07fc29f4.png')
      
     message.channel.send(embed)
   }
-if(message.content == 'ch!둠피1') {
+if(message.content == 'ch!둠피스트1') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -337,7 +337,7 @@ if(message.content == 'ch!둠피1') {
    
       .addField('```Hero Name```', '```fix\n흑대장```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761936671448891402/6c7739bb34a46b4b.png')
+      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/761938438580076554/13b8407c07fc29f4.png')
      
     message.channel.send(embed)
   }
