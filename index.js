@@ -130,31 +130,21 @@ if(message.content == 'ch!맥1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '**```fix\nMac```**', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532844531154974/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761826440973910036/f4ce55d1e2fa977a.png')
       
     message.channel.send(embed)
   }
 
-if(message.content == 'ch!맥1') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\nMac```**', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532919974101002/2.PNG')
-      
-    message.channel.send(embed)
-  }
+
 
 if(message.content == 'ch!맥크리1') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\nMac```**', true)
+      .addField('```Hero Name```', '**```fix\nMccree```**', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760532844531154974/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761826440973910036/f4ce55d1e2fa977a.png')
       
     message.channel.send(embed)
   }
