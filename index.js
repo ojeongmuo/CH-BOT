@@ -453,7 +453,28 @@ if(message.content == 'ch!트레') {
     message.channel.send(embed)
   }
 
-  
+  if(message.content == 'ch!트레이서1') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nTracer```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png')
+      
+    message.channel.send(embed)
+  }
+  if(message.content == 'ch!트레1') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nTracer```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png')
+      
+    message.channel.send(embed)
+  }
 
 if(message.content == 'ch!트레이서') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
