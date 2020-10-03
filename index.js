@@ -62,19 +62,7 @@ if(message.content == 'ch!정크렛') {
     message.channel.send(embed)
   }
 
-if(message.content == 'ch!원격') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setColor('#ff0000')
-      .addField('```원격 문의```', '**```fix\n크힛만 원격 문의 부탁해용```**', true)
-  .setThumbnail(img)
-.addField('크힛 제품 원격 입니다.', '원격 문의는 Critical PR#7777 또는 Prometheus#6962에게 부탁 드립니다.') 
-.addField('원격 하시는 분이 없으면 ', '관리자 또는 부관리자 한테 문의 부탁드립니다.') 
 
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756466685657219132/3.png')
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756466743786078268/4.png')
-    message.channel.send(embed)
-  }
 
 if(message.content == 'ch!젠야타') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
@@ -199,7 +187,7 @@ if(message.content == 'ch!위도우1') {
 
   
 if(message.content == 'ch!애쉬1') {
-    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let img = '.';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
@@ -282,25 +270,25 @@ if(message.content == 'ch!바티') {
      
     message.channel.send(embed)
   }
-if(message.content == 'ch!메이') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+if(message.content == 'ch!메이1') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nMei```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760672233420619816/111.png')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761866378126819338/726a5b0fc7cc49bb.png')
      
     message.channel.send(embed)
   }
 if(message.content == 'ch!메이') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nMei```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/760671926909141002/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761866378126819338/726a5b0fc7cc49bb.png')
      
     message.channel.send(embed)
   }
