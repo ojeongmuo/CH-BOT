@@ -187,11 +187,11 @@ if(message.content == 'ch!위도우1') {
 
   
 if(message.content == 'ch!애쉬1') {
-    let img = '.';
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .addField('```Hero Name```', '```fix\nAsh```', true)
+      .addField('```Hero Name```', '```fix\nAshe```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761560778532061194/f34ee3ed1ac0da02.png')
       
