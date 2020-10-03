@@ -52,17 +52,46 @@ if(message.content == 'ch!시메') {
   }
 
 if(message.content == 'ch!정크렛') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
       .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
   .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/758309132910067724/762005694366089236/b11a9d6ed8e66df4.png')
       
     message.channel.send(embed)
   }
 
-
+if(message.content == 'ch!정크렛1') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/758309132910067724/762005694366089236/b11a9d6ed8e66df4.png')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!정크1') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/758309132910067724/762005694366089236/b11a9d6ed8e66df4.png')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!정크') {
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/758309132910067724/762005694366089236/b11a9d6ed8e66df4.png')
+      
+    message.channel.send(embed)
+  }
 
 if(message.content == 'ch!젠야타') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
