@@ -531,7 +531,7 @@ if(message.content == 'ch!트레이서') {
   }
 
 if(message.content == 'ch!겐지') {
-    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
@@ -542,7 +542,7 @@ if(message.content == 'ch!겐지') {
     message.channel.send(embed)
   }
 if(message.content == 'ch!겐지1') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
