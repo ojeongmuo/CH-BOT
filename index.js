@@ -362,7 +362,7 @@ if(message.content == 'ch!솜브라') {
   }
 
 
-if(message.content == 'ch!한조1') {
+if(message.content == 'ch!한조') {
     let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
