@@ -172,14 +172,14 @@ if(message.content == 'ch!위도우') {
 
 
   
-if(message.content == 'ch!애쉬1') {
+if(message.content == 'ch!애쉬') {
     let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nAshe```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761560778532061194/f34ee3ed1ac0da02.png')
+      .setImage('https://cdn.discordapp.com/attachments/766317481572564992/766638790403031070/b3580463a316a431.png')
       
     message.channel.send(embed)
   }
@@ -373,17 +373,7 @@ if(message.content == 'ch!한조') {
       
     message.channel.send(embed)
   }
-if(message.content == 'ch!리퍼1') {
-    let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\nReaper```**', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761860983916199936/5520925ef369aa43.png')
-      
-    message.channel.send(embed)
-  }
+
 if(message.content == 'ch!리퍼') {
     let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
@@ -414,8 +404,7 @@ if(message.content == 'ch!트레') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nTracer```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png')
-      
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png') 
     message.channel.send(embed)
   }
   if(message.content == 'ch!트레1') {
@@ -425,8 +414,7 @@ if(message.content == 'ch!트레') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nTracer```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png')
-      
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/761933024589381632/b1f07bd7c42da64f.png')    
     message.channel.send(embed)
   }
 
