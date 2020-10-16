@@ -362,17 +362,6 @@ if(message.content == 'ch!솜브라') {
   }
 
 
-if(message.content == 'ch!한조') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\nHanzo```**', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742369648493985902/unknown.png')
-      
-    message.channel.send(embed)
-  }
 if(message.content == 'ch!한조1') {
     let img = 'https://cdn.discordapp.com/attachments/757614927489007809/761553353619669012/a_cb475c98cbbd39542742a711016f0689.gif';
     let embed = new Discord.RichEmbed()
@@ -380,7 +369,7 @@ if(message.content == 'ch!한조1') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '**```fix\nHanzo```**', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/761857230316240926/Hanzo_1.png')
+      .setImage('https://cdn.discordapp.com/attachments/766317481572564992/766631670505406464/aa6a87b69ac024f1.png')
       
     message.channel.send(embed)
   }
