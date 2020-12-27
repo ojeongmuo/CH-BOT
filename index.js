@@ -425,8 +425,8 @@ if(message.content == 'ch!Para') {
       .setImage('https://cdn.discordapp.com/attachments/761869923743825921/792780850886213692/f35a1d1896651965.png')
     message.channel.send(embed)
   }
-if(mesif(message.content == 'ch!para') {
-    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';)
+if(message.content == 'ch!para') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
